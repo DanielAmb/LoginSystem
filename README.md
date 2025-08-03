@@ -52,10 +52,14 @@ cd simple-login
 
 ### Run Project
 
-Configure spring.datasource.password=yourpassword in application.properties
+In server/src/main/resources/application.properties:
+
+Configure spring.datasource.password=yourpassword
 
 cd server
+
 mvn spring-boot:run
 
 cd ../client
+
 npm start
