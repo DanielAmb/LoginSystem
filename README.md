@@ -54,6 +54,10 @@ cd server
 
 mvn spring-boot:run
 
-cd ../client
+In a separate terminal:
+
+cd /client
+
+npm install
 
 npm start
