@@ -43,9 +43,11 @@ A full-stack authentication system with Spring Boot backend and React frontend.
 
 ### Installation
 
-1. **Clone the repository**:
-   git clone https://github.com/DanielAmb/simple-login.git
-   cd simple-login
+**Clone the repository**:
+
+git clone https://github.com/DanielAmb/simple-login.git
+
+cd simple-login
 
 
 ### Run Project
