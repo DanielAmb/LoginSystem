@@ -27,26 +27,26 @@ public class User implements UserDetails {  // Implement UserDetails
     // Required UserDetails methods
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return Collections.singletonList(new SimpleGrantedAuthority("ROLE_USER")); // Assign default role
+        return Collections.singletonList(new SimpleGrantedAuthority("ROLE_USER")); 
     }
 
     @Override
     public boolean isAccountNonExpired() {
-        return true; // Change if you need account expiration
+        return true;
     }
 
     @Override
     public boolean isAccountNonLocked() {
-        return true; // Change if you implement locking
+        return true;
     }
 
     @Override
     public boolean isCredentialsNonExpired() {
-        return true; // Change if you need credential expiration
+        return true;
     }
 
     @Override
     public boolean isEnabled() {
-        return true; // Change if you implement account disabling
+        return true; 
     }
 }
