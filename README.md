@@ -8,11 +8,9 @@ A full-stack authentication system with Spring Boot backend and React frontend.
 - **User Authentication**:
   - Registration with email/password
   - Secure login/logout
-  - JWT token-based authentication
 - **Frontend**:
   - Responsive React interface
   - Form validation
-  - Protected routes
 - **Backend**:
   - Spring Security configuration
   - MySQL database integration
@@ -23,15 +21,11 @@ A full-stack authentication system with Spring Boot backend and React frontend.
 **Frontend**:
 - React 18
 - Axios for API calls
-- React Router for navigation
-- Bootstrap/MUI for styling
 
 **Backend**:
 - Spring Boot 3.x
 - Spring Security
-- JWT authentication
 - MySQL database
-- Hibernate/JPA
 
 ## Setup Instructions
 
